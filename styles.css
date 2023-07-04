@@ -9,4 +9,15 @@ html
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    font-family: Digital-7, sans-serif;
+}
+
+body
+{
+    align-items: center;
+    background: linear-gradient(320deg, #EB92BE, #FFEF78, #63C9B4);
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
 }
