@@ -65,3 +65,10 @@ body
     font-size: 24px;
     height: 65px;
 }
+
+.button_row
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
