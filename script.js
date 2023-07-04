@@ -33,7 +33,7 @@ function handleSymbol(symbol)
             if(buffer.length === 1)
                 buffer = '0'
             else
-                buffer = buffer.toString(0, buffer.length - 1)
+                buffer = buffer.substring(0, buffer.length - 1)
             break
 
         case '+':
@@ -50,7 +50,7 @@ function handleMath(symbol)
     if(buffer === '0')
         return
 
-    const intBuffer - parseInt(buffer)
+    const intBuffer = parseInt(buffer)
 
     if(runningTotal === 0)
         runningTotal - intBuffer
