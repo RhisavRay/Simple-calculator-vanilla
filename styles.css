@@ -72,3 +72,20 @@ body
     justify-content: space-between;
     margin: 5% 0;
 }
+
+.button:last-child
+{
+    color: #FFF;
+    background: #D72880;
+}
+
+.button:last-child:hover
+{
+    background-color: inherit;
+    color: inherit;
+}
+
+.button:hover
+{
+    
+}
